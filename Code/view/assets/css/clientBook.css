@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.1)50%,rgb(0,0,0,0.1)50%), url(http://localhost/brief_MVC/view/assets/img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.booking-form-box{
+    max-width: 450px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0 ;
+    margin-bottom: 1.3rem;
+}
+/* .radio-btn{
+    margin: 0 20px;
+}
+.radio-btn .btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn ::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display:inline-block;
+    border: 3px solid #fff;
+    visibility:visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 18px;
+} */
+label{
+    color:#fff ;
+}
+/* .input-grp{
+    width: 200px;
+    margin: 2rem;
+} */
+.booking-form{
+    padding: 0 20px 20px ;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+input::placeholder{
+    color: #ff7 !important;
+    font-size: 15px;
+}
+.input-grp{
+    width: 150px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.form-control{
+  font-size: 12px; 
+  border-radius: 0; 
+  color: #000;
+  background: transparent;
+  box-shadow: none;
+}
